@@ -1,0 +1,29 @@
+{
+    "info": {
+        "url_png_icon_64x64": "https://git.io/JSRZ0",
+        "url_png_logo": "https://git.io/JSRnA",
+        "location": Oregon, US",
+        "social": {
+            "twitter_handle": "@ada_rewards",
+            "telegram_handle": "@adar_spo",
+            "facebook_handle": "@adar.stakepool",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "ADAR - Chris#2353",
+            "github_handle": ""
+        },
+        "company": {
+            "name": "ADA Rewards, LLC",
+            "addr": "5305 River Rd North STE B",
+            "city": "Keizer, OR",
+            "country": "US",
+            "company_id": "189358493",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "30 years as an engineer doing Automation, DevOps, and IT",
+            "server": "NUC running Ubuntu hosted at my home in Oregon",
+            "company": "ADA Rewards, LLC"
+        }
+    }
+}
