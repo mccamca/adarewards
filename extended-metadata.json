@@ -2,7 +2,7 @@
     "info": {
         "url_png_icon_64x64": "https://git.io/JSRZ0",
         "url_png_logo": "https://git.io/JSRnA",
-        "location": Oregon, US",
+        "location": "Oregon, US",
         "social": {
             "twitter_handle": "ada_rewards",
             "telegram_handle": "adar_spo",
@@ -22,7 +22,7 @@
         },
         "about": {
             "me": "30 years as an engineer doing Automation, DevOps, and IT",
-            "server": "NUC running Ubuntu hosted at my home in Oregon",
+            "server": "Cloud / Bare Metal Hybrid",
             "company": "ADA Rewards, LLC"
         }
     }
