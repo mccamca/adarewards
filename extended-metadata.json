@@ -24,6 +24,9 @@
             "me": "30 years as an engineer doing Automation, DevOps, and IT",
             "server": "Cloud / Bare Metal Hybrid",
             "company": "ADA Rewards, LLC"
-        }
+        },
+		"verify": {
+			"string": "ca30370944adb4e7e0"
+		}
     }
 }
