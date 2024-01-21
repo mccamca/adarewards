@@ -1,1 +1,7 @@
-
+{
+  "name": "ADA Rewards",
+  "description": "ADA Rewards Stake Pool - Preview Testnet",
+  "ticker": "ADAR",
+  "homepage": "https://adarewards.org",
+  "extended": "https://git.io/JSR0b"
+}
