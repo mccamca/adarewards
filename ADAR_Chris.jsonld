@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -51,29 +52,53 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
     "doNotList": false,
-    "givenName": "ADAR_Chris",
-    "motivations": "🤝 Functioning as a DRep is a way in which I can provide additional value to ADAR delegators and the community at large.",
-    "objectives": "✔️Real-world, industry transforming use cases on Cardano\n✔️Enable developers, develop partnerships, onboard users\n✔️Whiteboard principles first: scalability, interoperability, sustainability\n✔️Conservative, high long term ROI investments from the Treasury",
-    "paymentAddress": "addr1q9sd079prf38rhpa2vnws7m3j50v623krxfmxzt9mtmmjjewn4slp4thsv79r2aqn57azelgymwaxm99nvanj8p5pvdqqyfmjc",
-    "qualifications": "✔️Stake pool operator since Spring 2021 (Mithril Signer, active all testnets)\n✔️35 years of automation, software, and IT engineering experience\n✔️Mission Driven Pool, Cardano Single Pool Alliance, xSPO",
+    "givenName": {
+      "@value": "ADAR_Chris"
+    },
+    "motivations": {
+      "@value": "🤝 Functioning as a DRep is a way in which I can provide additional value to ADAR delegators and the community at large"
+    },
+    "objectives": {
+      "@value": "✔️Real-world, industry transforming use cases on Cardano\n✔️Enable developers, develop partnerships, onboard users\n✔️Whiteboard principles first: scalability, interoperability, sustainability\n✔️Conservative, high long term ROI investments from the Treasury"
+    },
+    "paymentAddress": {
+      "@value": "addr1q9sd079prf38rhpa2vnws7m3j50v623krxfmxzt9mtmmjjewn4slp4thsv79r2aqn57azelgymwaxm99nvanj8p5pvdqqyfmjc"
+    },
+    "qualifications": {
+      "@value": "✔️Stake pool operator since Spring 2021 (Mithril Signer, active all testnets)\n✔️35 years of automation, software, and IT engineering experience\n✔️Mission Driven Pool, Cardano Single Pool Alliance, xSPO"
+    },
     "references": [
       {
         "@type": "Link",
-        "label": "X",
-        "uri": "https://x.com/ada_rewards"
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/ada_rewards"
+        }
       },
       {
         "@type": "Link",
-        "label": "Telegram chat",
-        "uri": "https://t.me/adar_spo"
+        "label": {
+          "@value": "Telegram chat"
+        },
+        "uri": {
+          "@value": "https://t.me/adar_spo"
+        }
       },
       {
         "@type": "Identity",
-        "label": "ADAR Pool",
-        "uri": "https://www.adarewards.org/"
+        "label": {
+          "@value": "ADAR Pool"
+        },
+        "uri": {
+          "@value": "https://www.adarewards.org"
+        }
       }
     ]
   }
