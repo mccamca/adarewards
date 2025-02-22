@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "✅I believe our treasury is sufficiently funded to drive objectives, and even at a 10% tax rate will grow (especially in USD terms) sufficiently to drive downstream deliverables.\n✅I believe that allocating additional capital to stakers helps drive increased on-chain activity and liquidity in our existing CNTs, DApps, and Defi platforms.\n✅I believe this action is an excellent opportunity that demonstrates the empowerment of our #Cardano community through governance. A reasonable, democratic, establishment of the tax rate that was otherwise established in a centralized manner under very different concerns and circumstances.\n✅Nothing about this action precludes the community from agreeing to an alternative tax rate in the future if there is concern our treasury is not sufficiently funded.\n✅I'd rather see a more conservative funding of the treasury until we have demonstrated a degree of discretion and collective wisdom allocating funds in this new governance era. "
+  },
+  "hashAlgorithm": "blake2b-256"
+}
